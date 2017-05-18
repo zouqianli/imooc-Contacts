@@ -181,8 +181,10 @@
     }];
 }
 
+#pragma mark -- 第二次提交 删除按钮状态改变
 - (IBAction)deleteAction:(UIBarButtonItem *)sender {
-    self.tableView.editing = YES;
+//    self.tableView.editing = YES;
+    self.tableView.editing = !self.tableView.editing;
 }
 
 - (IBAction)addAction:(UIBarButtonItem *)sender {
