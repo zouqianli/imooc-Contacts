@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LoginViewController.h
 //  Contacts
 //
 //  Created by 邹前立 on 2017/5/18.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface LoginViewController : UIViewController
 
 @end
